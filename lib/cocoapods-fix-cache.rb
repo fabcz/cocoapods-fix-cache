@@ -1,1 +1,3 @@
-require 'cocoapods-fix-cache/gem_version'
+module CocoapodsFixCache
+    VERSION = "0.1.0"
+end

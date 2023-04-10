@@ -1,1 +1,1 @@
-require 'cocoapods-fix-cache/command'
+require "cocoapods-fix-cache/fix-cache"

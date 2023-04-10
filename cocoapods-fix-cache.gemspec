@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cocoapods-fix-cache/gem_version.rb'
+require 'cocoapods-fix-cache.rb'
 
 Gem::Specification.new do |spec|
   spec.name          = 'cocoapods-fix-cache'
