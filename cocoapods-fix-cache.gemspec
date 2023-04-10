@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsFixCache::VERSION
   spec.authors       = ['chengcong']
   spec.email         = ['646376172@qq.com']
-  spec.description   = %q{A short description of cocoapods-fix-cache.}
-  spec.summary       = %q{A longer description of cocoapods-fix-cache.}
+  spec.description   = %q{Fix CocoaPods cache bug}
+  spec.summary       = %q{Fix Concurrent building occasionally cleans the Pods cache directory, see https://github.com/CocoaPods/CocoaPods/pull/11827}
   spec.homepage      = 'https://github.com/fabcz/cocoapods-fix-cache'
   spec.license       = 'MIT'
 
