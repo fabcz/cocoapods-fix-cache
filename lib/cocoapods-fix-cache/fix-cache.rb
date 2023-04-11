@@ -8,7 +8,7 @@ module Pod
                 if Cache.respond_to?(:read_lock) && Cache.respond_to?(:write_lock)
                     version_file = root + "VERSION"
                     version = nil
-                    Cache.read_lock(version_file) { version = version_file.read.strip if version_file.file? }
+                    Cache.read_lock(version_file) { version = version_file.read.strip } if version_file.file?
 
                     root.rmtree if version != Pod::VERSION && root.exist?
                     root.mkpath
